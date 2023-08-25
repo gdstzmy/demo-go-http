@@ -18,7 +18,7 @@ spec:
         app: go-httpserver
     spec:
       containers:
-      - image: surenpi/test:11d2b54
+      - image: gdstzmy/demo-go-http:latest
         name: test
         ports:
         - containerPort: 9090
